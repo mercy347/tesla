@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    width: 100vw;
+    
+}
+
+.header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgb(0,0,0,0.7)), url('./images/Model-S-homepage-desktop.jpg');
+    background-position: center;
+    color: red
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+    
+
+}
+
+
+.link{
+    margin: 0 10px 0 10px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    
+    
+    
+}
+
+.link{
+    padding: 0 10px 20px 10px;
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:burlywood;
+}
+main >*{
+    margin: 90px 0 130px 0;
+}
+
+button{
+    width: 30vh;
+    height: 10vh;
+    background-color: aqua;
+    color:black;
+    
+
+    
+}
